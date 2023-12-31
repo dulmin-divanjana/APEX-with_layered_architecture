@@ -10,18 +10,5 @@ import java.sql.Statement;
 import java.util.ArrayList;
 
 public interface CustomerDAO {
-    public ArrayList<CustomerDto> getAllCustomer() throws SQLException, ClassNotFoundException {
-        Connection connection = DbConnection.getDbConnection().getConnection();
-        Statement stm = connection.createStatement();
-        ResultSet rst = stm.executeQuery("SELECT * FROM Customer");
-        ArrayList<CustomerDto> getAllCustomer=new ArrayList<>();
-        while (rst.next()){
-            CustomerDto customerDTO=new CustomerDto(rst.getString("id"),
-                    rst.getString("name"), rst.getString("address"));
-            getAllCustomer.add(customerDTO);
-        }
-        return getAllCustomer;
 
-
-    }
 }

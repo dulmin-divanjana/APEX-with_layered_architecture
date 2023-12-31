@@ -244,7 +244,7 @@ public class CustomerFormController {
         ObservableList<CustomerTm> obList = FXCollections.observableArrayList();
 
         try {
-            List<CustomerDto> dtoList = customer.getAllCustomer();
+            List<CustomerDto> dtoList = CustomerModel.getAllCustomer();
 
             for (CustomerDto dto : dtoList) {
                 obList.add(
