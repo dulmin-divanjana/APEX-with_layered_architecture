@@ -1,4 +1,4 @@
-package lk.ijse.carservicesystem.dao;
+package lk.ijse.carservicesystem.dao.custom;
 
 import lk.ijse.carservicesystem.db.DbConnection;
 import lk.ijse.carservicesystem.dto.CustomerDto;

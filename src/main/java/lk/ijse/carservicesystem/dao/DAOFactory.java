@@ -1,4 +1,4 @@
 package lk.ijse.carservicesystem.dao;
 
-public interface VehicleDAO {
+public class DAOFactory {
 }

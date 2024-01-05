@@ -1,4 +1,4 @@
 package lk.ijse.carservicesystem.dao;
 
-public class ServiceDAOImpl {
+public interface SuperDAO {
 }

@@ -1,4 +1,4 @@
 package lk.ijse.carservicesystem.dao;
 
-public interface EmployeeDAO {
+public interface CrudDAO {
 }
